@@ -1,2 +1,2 @@
-# This is "Our Social Media" repository
+# "Our Social Media" repository
 
