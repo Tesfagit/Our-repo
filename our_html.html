@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <!--"lang-US" makes work more accessible to browsers to identify the language-->
+
+  <head>
+    <title>Our Social Media</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <!-- this "meta" element helps to make the page responsive for different sizes of the screen-->
+    <link rel="stylesheet" href="our_css.css">
+  </head>
+
+  <body>
+    <div
+      id="tesfaTopNaveRow"
+      style="
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        background-color: white;
+        border-bottom: 4px solid rgb(60, 179, 113);
+      "
+    >
+      <div class="tesfaTopNavColumn1" id="tesfaProfileImage">
+        <img
+          class="imgProfile"
+          src="https://lh3.googleusercontent.com/uA1PYtrEJNlnRHDhE8Bn6t85j1ZRNb-qfDFCAbKnbUGZtPvNoW8US_iBOL6QfgyY0zFy4cP5BqL4wJYVmN8Zo5o3g1n5VyiaMHTETI_C-LgBzphEHHXK2A2p9Ruvfm99pTp4M3phgQ=w600-h315-p-k"
+          src="https://lh3.googleusercontent.com/yECzphzTJvSD1DwqRQ0QK3tFCPoD1mhApsKGhKfnNqo7zrrr7ecS1HY3N2tJn0xKAc4nKeYaETDdaeje006KUfOCao9WYdDsd4MZ_61wCsWxTgSLVVe83OXdpjxjFdQbpzl7WrdSAA=w600-h315-p-k"
+          alt="tesfa"
+          height="200%"
+          width="100%"
+        />
+      </div>
+
+      <div id="tesfTopNavcolumn2">
+        <ul class="tesfaTopNavList">
+          <li>Photos</li>
+          <li>Profile</li>
+          <li>About</li>
+          <li>Time</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tesfaRow">
+      <div class="tesfaColumn1">
+        <ul class="tesfaSideNav">
+          <li style="color: DodgerBlue; font-weight: bold">Tesfa</li>
+          <li>Sex: male</li>
+          <li>Age: 22</li>
+          <li>Country: US</li>
+          <li>Email:</li>
+          <li>Phone:</li>
+          <li>Bio</li>
+          <li>Hobbies</li>
+          <li>Country: US</li>
+          <li>Email:</li>
+          <li>Phone:</li>
+          <li>Twitter</li>
+          <li>Website</li>
+          <li>More.</li>
+        </ul>
+      </div>
+      <h1 style="text-align: center; color: rgb(60, 179, 113)">Posts</h1>
+      <hr />
+
+      <div class="tesfaColumn2">
+        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
+          Hey Fre, the top Nav is sticky when you scroll up. And like, share,
+          and dislike buttons increment, when you click; take a look at it. See
+          it on both phone and pc. Thank you!
+        </p>
+        <img
+          style="padding: 2%"
+          src="http://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg"
+          alt="waterfall"
+          width="96%"
+        />
+        <div>
+          <ul class="tesfaPostLike">
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                Like
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                share
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                dislike
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tesfaColumn3">
+        <p  id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
+          Hey Fre, the top Nav is sticky when you scroll up. And like, share,
+          and dislike buttons increment, when you click; take a look at it. See
+          it on both phone and pc. Thank you!
+        </p>
+        <img
+          style="padding: 2%"
+          src="https://media.istockphoto.com/photos/renewable-energy-and-sustainable-development-picture-id1186330948?k=20&m=1186330948&s=612x612&w=0&h=5aNPCcQ8FcZraX44PEhb2mqcHkow2xMITJMHdh28xNg="
+          alt="waterfall"
+          width="96%"
+        />
+        <div>
+          <ul class="tesfaPostLike">
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                Like
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                share
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                dislike
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tesfaColumn2">
+        <p  id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
+          Hey Fre, the top Nav is sticky when you scroll up. And like, share,
+          and dislike buttons increment, when you click; take a look at it. See
+          it on both phone and pc. Thank you!
+        </p>
+        <img
+          style="padding: 2%"
+          src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+          alt="waterfall"
+          width="96%"
+        />
+        <div>
+          <ul class="tesfaPostLike">
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                Like
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                share
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                dislike
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tesfaColumn3">
+        <p  id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
+          Hey Fre, the top Nav is sticky when you scroll up. And like, share,
+          and dislike buttons increment, when you click; take a look at it. See
+          it on both phone and pc. Thank you!
+        </p>
+        <img
+          style="padding: 2%"
+          src="https://image.shutterstock.com/image-photo/blooming-apple-tree-on-blurred-600w-2076457009.jpg"
+          alt="waterfall"
+          width="96%"
+        />
+        <div>
+          <ul class="tesfaPostLike">
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                Like
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                share
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                dislike
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tesfaColumn2">
+        <p  id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
+          Hey Fre, the top Nav is sticky when you scroll up. And like, share,
+          and dislike buttons increment, when you click; take a look at it. See
+          it on both phone and pc. Thank you!
+        </p>
+        <img
+          style="padding: 2%"
+          src="https://t3.ftcdn.net/jpg/02/19/84/86/240_F_219848647_dRWZu9bw6ejvgkCPfPExycrGOaJeqBwJ.jpg"
+          alt="waterfall"
+          width="96%"
+        />
+        <div>
+          <ul class="tesfaPostLike">
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                Like
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                share
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                dislike
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tesfaColumn3">
+        <p  id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
+          Hey Fre, the top Nav is sticky when you scroll up. And like, share,
+          and dislike buttons increment, when you click; take a look at it. See
+          it on both phone and pc. Thank you!
+        </p>
+        <img
+          style="padding: 2%"
+          src="https://thumbs.dreamstime.com/b/panoramic-autumn-landscape-forest-stream-fall-nature-backg-sunny-day-background-79856609.jpg"
+          alt="waterfall"
+          width="96%"
+        />
+        <div>
+          <ul class="tesfaPostLike">
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                Like
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                share
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                dislike
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tesfaColumn2">
+        <p  id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
+          Hey Fre, the top Nav is sticky when you scroll up. And like, share,
+          and dislike buttons increment, when you click; take a look at it. See
+          it on both phone and pc. Thank you!
+        </p>
+        <img
+          style="padding: 2%"
+          src="https://previews.123rf.com/images/paulgrecaud/paulgrecaud1611/paulgrecaud161100001/68282434-panoramic-autumn-landscape-in-sunny-forest-fall-nature-background-at-sunrise.jpg"
+          alt="waterfall"
+          width="96%"
+        />
+        <div>
+          <ul class="tesfaPostLike">
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                Like
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                share
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                dislike
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tesfaColumn3">
+        <p  id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
+          Hey Fre, the top Nav is sticky when you scroll up. And like, share,
+          and dislike buttons increment, when you click; take a look at it. See
+          it on both phone and pc. Thank you!
+        </p>
+        <img
+          style="padding: 2%"
+          src="https://previews.123rf.com/images/xurzon/xurzon1607/xurzon160700036/62737002-forest-panorama-with-sun.jpg"
+          alt="waterfall"
+          width="96%"
+        />
+        <div>
+          <ul class="tesfaPostLike">
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                Like
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr();"
+              >
+                share
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+            <li>
+              <button
+                type="button"
+                onclick="incr()"
+              >
+                dislike
+              </button>
+              <p id="tesfa">0</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <h2 style="font-family: monospace; text-align: center">Thank you!</h2>
+
+    <footer id ="tesfa-footer">
+      tesfa@2022
+    </footer>
+    <script src="our_javaScript.js"></script>
+  </body>
+  <!--God beless you!-->
+</html>
