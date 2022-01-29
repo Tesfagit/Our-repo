@@ -1,0 +1,127 @@
+/* this is decoration for all like, share and dislike buttons */
+button {
+  background-color: rgb(60, 179, 113);
+  color: white;
+  border-radius: 40%;
+}
+
+.imgProfile {
+  border-radius: 50%;
+  margin-left: 0px;
+}
+
+/* top profile image */
+
+/* these tesfaTopNav classes and id styles are for the top navigation and profile image  */
+.tesfaTopNavColumn1 {
+  float: left;
+  width: 20%;
+  margin-right: 1.2%;
+  padding: 0px;
+}
+
+#tesfTopNavcolumn2 {
+  float: left;
+  width: 75%;
+  margin-right: 1.2%;
+  padding: 0px;
+}
+
+.tesfaTopNavList {
+  list-style-type: none;
+  padding: 0%;
+  margin-top: 5%;
+}
+
+.tesfaTopNavList > li {
+  display: inline;
+  padding: 1% 2vw;
+  border-left: 1px solid rgb(60, 179, 113);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* the style below is "clearfix" that must be used after float */
+#tesfaTopNaveRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* tesfaSideNav and tesfaColumn1 classes below are for the side Nav*/
+.tesfaColumn1 {
+  background-color: #ccc;
+  float: left;
+  width: 20%;
+  margin-left: 0px;
+  margin-right: 1.2%;
+  padding: 0px;
+  position: fixed;
+  top: 23vh;
+}
+
+.tesfaSideNav {
+  list-style-type: none;
+  padding: 0px 10px;
+  background-color: #ccc;
+  overflow: auto;
+}
+
+.tesfaSideNav > li {
+  display: block;
+  padding: 2vw;
+  text-align: center;
+}
+
+/* tesfaColumn2 and tesfaColumn3 styles are for the posts*/
+.tesfaColumn2,
+.tesfaColumn3 {
+  float: right;
+  width: 35%;
+  margin-left: 2%;
+  padding: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tesfaPostLike {
+  list-style-type: none;
+  text-align: center;
+}
+
+.tesfaPostLike > li,
+p {
+  display: inline;
+}
+
+.tesfaPostLike > li {
+  padding: 1%;
+}
+
+/* the style below is "clearfix" that must be used after float */
+.tesfaRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* here media query breaks for mobile phone'ssize*/
+@media only screen and (max-width: 830px) {
+  .tesfaColumn2,
+  .tesfaColumn3 {
+    width: 70%;
+  }
+
+  .tesfaColumn1 {
+    top: 19vw;
+  }
+}
+tesfa-footer {
+  text-align: center;
+  background-color: #aaa;
+  padding: 9px;
+  margin-top: 15px;
+  color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+}
