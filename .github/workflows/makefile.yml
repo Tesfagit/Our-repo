@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: configure
-      run: ./our_html.html
+#     - name: configure
+#       run: ./our_html.html
       
     - name: Install dependencies
       run: make
