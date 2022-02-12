@@ -1,4 +1,5 @@
 let unclicked = true;
+// This function toogles between 0 and 1 when you click buttons
 function buttons() {
   if(unclicked)
   {
