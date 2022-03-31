@@ -121,7 +121,7 @@ p {
   padding: 9px;
   margin-top: 15px;
   color: white;
-  position: sticky;
-  position: -webkit-sticky;
+  /* position: sticky;
+  position: -webkit-sticky; */
   bottom: 0;
 }

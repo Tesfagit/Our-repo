@@ -1,420 +1,107 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <!--"lang-US" makes work more accessible to browsers to identify the language-->
-
-  <head>
-    <title>Our Social Media</title>
-    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
-    <!-- this "meta" element helps to make the page responsive for different sizes of the screen-->
-    <link rel="stylesheet" href="our_css.css">
-    <script src="our_javaScript.js"></script>
+<html>
+ <head>
+   <title>Page Title</title>
+   <style>
+   </style>
+    <link rel="stylesheet" href="CSS_style.css">
   </head>
+<body>
+  <center>
+<h1>Survey Form</h1>
+<div class="header"><i>Please Fill the form below</i></div>
+<form>
+<div class="row">
+<div class="forms">
+<label>Image<span class="required">*</span><br><br>
+<img src="https://cdn.pixabay.com/photo/2016/09/23/08/28/code-1689066_960_720.jpg" width="80%"></label>
+	</div>
+	<div class="forms">
+	
+	<label  for="fname">First name: <span class="required">*</span></label><br>
+	<input class="add-padding" id="fname"  type="text" name="fname" placeholder="Woyne..."><br>
+	<label for="lname">Last name:<span class="required">*</span></lable><br>
+	<input class="add-padding" type="text" id="lnmae" name="fname" placeholder="Hai..."><br>
+	<label for="email">Email adderesse: <span class="required">*</span></lable><br>
+	<input class="add-padding" type="email" id="email" email="email" placeholder="woyhai@..."><br>
+	</div>
+	<div class="forms">
+	<label for="sex"> Sex:</lable><br>
+	<input class="add-padding" type="sex" id="Sex" name="text"placeholde="female"><br>
+	<label for="age">Age:</label><br>
+	<input class="add-padding" id="age"><br>
+    
+	<label for="Phone Number">Phone Number:<span class="required">*</span><br>
+	
+	<div class="add-padding">
+	<input class="phone1" type="text" maxlength="3" placeholder="717">-
+	<input class="phone2" type="text" maxlength="3" placeholder="123">-
+	<input class="phone3" type="text" maxlength="4" placeholder="4567"></label><br>
+	</div>
+	</div>
+	</div>
+	
+	
+</forms>
+<div class="lesson">
 
-  <body>
-    <div
-      id="tesfaTopNaveRow"
-      style="
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-        background-color: white;
-        border-bottom: 4px solid rgb(60, 179, 113);
-      "
-    >
-      <div class="tesfaTopNavColumn1" id="tesfaProfileImage">
-        <img
-          class="imgProfile"
-          src="https://lh3.googleusercontent.com/uA1PYtrEJNlnRHDhE8Bn6t85j1ZRNb-qfDFCAbKnbUGZtPvNoW8US_iBOL6QfgyY0zFy4cP5BqL4wJYVmN8Zo5o3g1n5VyiaMHTETI_C-LgBzphEHHXK2A2p9Ruvfm99pTp4M3phgQ=w600-h315-p-k"
-          src="https://lh3.googleusercontent.com/yECzphzTJvSD1DwqRQ0QK3tFCPoD1mhApsKGhKfnNqo7zrrr7ecS1HY3N2tJn0xKAc4nKeYaETDdaeje006KUfOCao9WYdDsd4MZ_61wCsWxTgSLVVe83OXdpjxjFdQbpzl7WrdSAA=w600-h315-p-k"
-          alt="tesfa"
-          height="200%"
-          width="100%"
-        />
-      </div>
+<label> 
+</b><textarea class="text" placeholder="Tell me about yourself"></textarea></label>
 
-      <div id="tesfTopNavcolumn2">
-        <ul class="tesfaTopNavList">
-          <li>Photos</li>
-          <li>Profile</li>
-          <li>About</li>
-          <li>Time</li>
-        </ul>
-      </div>
-    </div>
+</div>
+<form>
+<div class="row-two">
 
-    <div class="tesfaRow">
-      <div class="tesfaColumn1">
-        <ul class="tesfaSideNav">
-          <li style="color: DodgerBlue; font-weight: bold">Tesfa</li>
-          <li>Sex: male</li>
-          <li>Age: 22</li>
-          <li>Country: US</li>
-          <li>Email:</li>
-          <li>Phone:</li>
-          <li>Bio</li>
-          <li>Hobbies</li>
-          <li>Country: US</li>
-          <li>Email:</li>
-          <li>Phone:</li>
-          <li>Twitter</li>
-          <li>Website</li>
-          <li>More.</li>
-        </ul>
-      </div>
-      <h1 style="text-align: center; color: rgb(60, 179, 113)">Posts</h1>
-      <hr />
+<div class="form-two">
+<label><i>Please, give us some more Information!</i></label>
+<div class="margin">
 
-      <div class="tesfaColumn2">
-        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
-          <script>document.write(para());</script>
-        </p>
-        <img
-          style="padding: 2%"
-          src="http://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg"
-          alt="waterfall"
-          width="96%"
-        />
-        <div>
-          <ul class="tesfaPostLike">
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa1").innerHTML=buttons();'
-              >
-                Like
-              </button>
-              <p id="tesfa1">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa2").innerHTML=buttons();'
-              >
-                share
-              </button>
-              <p id="tesfa2">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa3").innerHTML=buttons();'
-              >
-                dislike
-              </button>
-              <p id="tesfa3">0</p>
-            </li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="tesfaColumn3">
-        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
-          <script>document.write(para());</script>
-        </p>
-        <img
-          style="padding: 2%"
-          src="https://media.istockphoto.com/photos/renewable-energy-and-sustainable-development-picture-id1186330948?k=20&m=1186330948&s=612x612&w=0&h=5aNPCcQ8FcZraX44PEhb2mqcHkow2xMITJMHdh28xNg="
-          alt="waterfall"
-          width="96%"
-        />
-        <div>
-          <ul class="tesfaPostLike">
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa4").innerHTML=buttons();'
-              >
-                Like
-              </button>
-              <p id="tesfa4">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa5").innerHTML=buttons();'
-              >
-                share
-              </button>
-              <p id="tesfa5">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa6").innerHTML=buttons();'
-              >
-                dislike
-              </button>
-              <p id="tesfa6">0</p>
-            </li>
-          </ul>
-        </div>
-      </div>
+<h3>Iterests</h3>
+<select>
+ 
+<option> Traveling</option>
+<option> Family time</option>
+<option> Cooking</option>
 
-      <div class="tesfaColumn2">
-        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
-          <script>document.write(para());</script>
-        </p>
-        <img
-          style="padding: 2%"
-          src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
-          alt="waterfall"
-          width="96%"
-        />
-        <div>
-          <ul class="tesfaPostLike">
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa7").innerHTML=buttons();'
-              >
-                Like
-              </button>
-              <p id="tesfa7">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa8").innerHTML=buttons();'
-              >
-                share
-              </button>
-              <p id="tesfa8">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa9").innerHTML=buttons();'
-              >
-                dislike
-              </button>
-              <p id="tesfa9">0</p>
-            </li>
-          </ul>
-        </div>
-      </div>
+</select>
+</div>
 
-      <div class="tesfaColumn3">
-        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
-          <script>document.write(para());</script>
-        </p>
-        <img
-          style="padding: 2%"
-          src="https://image.shutterstock.com/image-photo/blooming-apple-tree-on-blurred-600w-2076457009.jpg"
-          alt="waterfall"
-          width="96%"
-        />
-        <div>
-          <ul class="tesfaPostLike">
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa10").innerHTML=buttons();'
-              >
-                Like
-              </button>
-              <p id="tesfa10">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa11").innerHTML=buttons();'
-              >
-                share
-              </button>
-              <p id="tesfa11">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa12").innerHTML=buttons();'
-              >
-                dislike
-              </button>
-              <p id="tesfa12">0</p>
-            </li>
-          </ul>
-        </div>
-      </div>
+<div class="margin">
+<h3> Physically Active</h3>
+</form>
 
-      <div class="tesfaColumn2">
-        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
-          <script>document.write(para());</script>
-        </p>
-        <img
-          style="padding: 2%"
-          src="https://t3.ftcdn.net/jpg/02/19/84/86/240_F_219848647_dRWZu9bw6ejvgkCPfPExycrGOaJeqBwJ.jpg"
-          alt="waterfall"
-          width="96%"
-        />
-        <div>
-          <ul class="tesfaPostLike">
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa13").innerHTML=buttons();'
-              >
-                Like
-              </button>
-              <p id="tesfa13">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa14").innerHTML=buttons();'
-              >
-                share
-              </button>
-              <p id="tesfa14">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa15").innerHTML=buttons();'
-              >
-                dislike
-              </button>
-              <p id="tesfa15">0</p>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <input type="radio" id="yes" name="your_choice" value="Yes">
+  <label for="yes">Yes</label>
+  <input type="radio" id="No" name="your_choice" value="No">
+  <label for="No">No</label>
+</form>
+</div>
+<div class="margin">
+<h3>Hobbies</h3>
+<form>
+<label for="Soccer">Soccer</label>
+<input type="checkbox" id="Soccer">
+<label for="Footbal"> Football</label>
+<input type="checkbox" id="Football">
+<label for="Work">Work</label>
+<input type="checkbox" id="Work"><br>
+<input class="submit"type="submit" id="submit"><br>
+</div>
+</div>
 
-      <div class="tesfaColumn3">
-        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
-          <script>document.write(para());</script>
-        </p>
-        <img
-          style="padding: 2%"
-          src="https://thumbs.dreamstime.com/b/panoramic-autumn-landscape-forest-stream-fall-nature-backg-sunny-day-background-79856609.jpg"
-          alt="waterfall"
-          width="96%"
-        />
-        <div>
-          <ul class="tesfaPostLike">
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa16").innerHTML=buttons();'
-              >
-                Like
-              </button>
-              <p id="tesfa16">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa17").innerHTML=buttons();'
-              >
-                share
-              </button>
-              <p id="tesfa17">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa18").innerHTML=buttons();'
-              >
-                dislike
-              </button>
-              <p id="tesfa18">0</p>
-            </li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="tesfaColumn2">
-        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
-          <script>document.write(para());</script>
-        </p>
-        <img
-          style="padding: 2%"
-          src="https://previews.123rf.com/images/paulgrecaud/paulgrecaud1611/paulgrecaud161100001/68282434-panoramic-autumn-landscape-in-sunny-forest-fall-nature-background-at-sunrise.jpg"
-          alt="waterfall"
-          width="96%"
-        />
-        <div>
-          <ul class="tesfaPostLike">
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa19").innerHTML=buttons();'
-              >
-                Like
-              </button>
-              <p id="tesfa19">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa20").innerHTML=buttons();'
-              >
-                share
-              </button>
-              <p id="tesfa20">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa21").innerHTML=buttons();'
-              >
-                dislike
-              </button>
-              <p id="tesfa21">0</p>
-            </li>
-          </ul>
-        </div>
-      </div>
+<div class ="form-two">
+<img src="https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196_960_720.jpg" alt="uhbg" width="400">
+<img src="https://cdn.pixabay.com/photo/2016/11/08/05/11/children-1807511_960_720.jpg" alt="hfg" width="400">
+<img src="https://cdn.pixabay.com/photo/2016/11/08/05/20/sunset-1807524_960_720.jpg" alt="bjgu" width="400">
+</from>
+</div>
+</div>
+</div>
 
-      <div class="tesfaColumn3">
-        <p id="tesfa-para" style="padding: 20px; font-family: monospace; font-weight: bold">
-          <script>document.write(para());</script>
-        </p>
-        <img
-          style="padding: 2%"
-          src="https://previews.123rf.com/images/xurzon/xurzon1607/xurzon160700036/62737002-forest-panorama-with-sun.jpg"
-          alt="waterfall"
-          width="96%"
-        />
-        <div>
-          <ul class="tesfaPostLike">
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa22").innerHTML=buttons();'
-              >
-                Like
-              </button>
-              <p id="tesfa22">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa23").innerHTML=buttons();'
-              >
-                share
-              </button>
-              <p id="tesfa23">0</p>
-            </li>
-            <li>
-              <button
-                type="button"
-                onclick='document.getElementById("tesfa24").innerHTML=buttons();'
-              >
-                dislike
-              </button>
-              <p id="tesfa24">0</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <hr />
 
-    <h2 style="font-family: monospace; text-align: center">Thank you!</h2>
+</center>
+</body>
 
-    <footer id ="tesfa-footer">
-      tesfa@2022
-    </footer>
-  </body>
-  <!--God beless you!-->
 </html>
